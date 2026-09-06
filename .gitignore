@@ -1,0 +1,36 @@
+# Local runtime / private material
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.db
+node_modules/
+.next/
+# Third-party source files: publish only after per-source rights review
+sources/raw/
+data/private/*
+!data/private/README.md
+data/reference/raw/
+# Local exports and operational logs
+exports/
+logs/
+
+# Generated application files
+*.tsbuildinfo
+dist/
+.wrangler/
+.vinext/
+coverage/
+
+# Local research archive retained in Drive; curated technical docs are tracked
+/docs/research/
+/docs/design/
+/docs/PROJECT_BRIEF.md
+/docs/ROADMAP.md
+/data/
+/sources/
+/FILE_MANIFEST.json
